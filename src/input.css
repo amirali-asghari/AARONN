@@ -1,10 +1,9 @@
 @import "tailwindcss";
 
-body{
+.syne{
     font-family: "Syne", serif;
 }
-
-ul{
+.Rubik{
     font-family: "Rubik", serif;
 }
 
