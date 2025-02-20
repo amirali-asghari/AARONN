@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
 .syne{
     font-family: "Syne", serif;
 }
