@@ -542,11 +542,8 @@
   .z-10 {
     z-index: 10;
   }
-  .mt-\[150px\] {
-    margin-top: 150px;
-  }
-  .mt-\[300px\] {
-    margin-top: 300px;
+  .mt-\[100px\] {
+    margin-top: 100px;
   }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
@@ -554,20 +551,26 @@
   .flex {
     display: flex;
   }
+  .h-\[1\.5px\] {
+    height: 1.5px;
+  }
+  .h-\[47px\] {
+    height: 47px;
+  }
   .h-\[100vh\] {
     height: 100vh;
   }
   .h-\[1px\] {
     height: 1px;
   }
-  .h-\[47px\] {
-    height: 47px;
-  }
   .h-\[59px\] {
     height: 59px;
   }
   .h-\[65px\] {
     height: 65px;
+  }
+  .h-\[740px\] {
+    height: 740px;
   }
   .h-\[750px\] {
     height: 750px;
@@ -593,8 +596,8 @@
   .w-\[60\%\] {
     width: 60%;
   }
-  .w-\[74\%\] {
-    width: 74%;
+  .w-\[70\%\] {
+    width: 70%;
   }
   .w-\[138px\] {
     width: 138px;
@@ -675,14 +678,20 @@
   .border-white\/50 {
     border-color: color-mix(in oklab, var(--color-white) 50%, transparent);
   }
-  .bg-\[\#1A1A1A\] {
-    background-color: #1A1A1A;
-  }
   .bg-\[\#030304\]\/50 {
     background-color: color-mix(in oklab, #030304 50%, transparent);
   }
+  .bg-\[\#131313\] {
+    background-color: #131313;
+  }
+  .bg-\[\#1A1A1A\] {
+    background-color: #1A1A1A;
+  }
   .bg-\[\#FF9142\] {
     background-color: #FF9142;
+  }
+  .bg-\[\#fff\] {
+    background-color: #fff;
   }
   .px-\[150px\] {
     padding-inline: 150px;
@@ -696,11 +705,20 @@
   .pt-\[100px\] {
     padding-top: 100px;
   }
+  .pt-\[150px\] {
+    padding-top: 150px;
+  }
+  .pt-\[200px\] {
+    padding-top: 200px;
+  }
   .pb-\[70px\] {
     padding-bottom: 70px;
   }
   .text-center {
     text-align: center;
+  }
+  .text-left {
+    text-align: left;
   }
   .text-\[1\.3rem\] {
     font-size: 1.3rem;
@@ -774,6 +792,9 @@
   .text-\[\#FDFDFD\] {
     color: #FDFDFD;
   }
+  .text-\[\#FF9142\] {
+    color: #FF9142;
+  }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
   }
@@ -788,6 +809,9 @@
   }
   .text-white\/80 {
     color: color-mix(in oklab, var(--color-white) 80%, transparent);
+  }
+  .underline {
+    text-decoration-line: underline;
   }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
