@@ -9,10 +9,13 @@ body{
     overflow-x: hidden;
 }
 
-.syne{
-    font-family: "Syne", serif;
-}
-.Rubik{
-    font-family: "Rubik", serif;
+@theme{
+    --color-body-bg:#1A1A1A;
+    --color-main-color:#FF9142;
+    --color-text-color:#A8A8A8;
+
+    --font-Syne:"Syne", serif;
+    --font-Rubik:"Rubik", serif";
+
 }
 
